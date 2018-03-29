@@ -10,10 +10,11 @@ prior programming experience.
 
 ## Where and when?
  - Where: AIfA CIP-Pool; Room 0.007 in the AIfA ground floor
- - When: 1:00 pm s.t. - 4:00 pm on each Wednesday (except public holidays) in the 2018 Summer Term
+ - When: 1:00 pm s.t. - 4:00 pm on each Wednesday (except public holidays) in the 2018 Summer Term; the first lecture is on the 11th of April 2018.
 
 ## Preconditions for the course
- - You need a Bonn University account to participate in the course! This consists of a login name (it starts with the letters *s6*) and an accompanying password. Please make sure that you have the accounf **and** the password ready for the first lecture on the 9th of April!
+ - You need a Bonn University account to participate in the course! This consists of a login name (it starts with the letters *s6*) and an accompanying password. Please make sure that you have the accounf **and** the password ready for the first lecture on the 11th of April!
+ 
   **Important Note:** The Bonn university account is *different* from your AIfA computer login account (if you have one!). The AIfA account is **NOT** sufficient for the course!
 - I assume basic familiarity with the *Linux* operating system, especially using the *Unix*-command line.
 
