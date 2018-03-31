@@ -30,7 +30,7 @@ Please answer the following questions consecutively. The build on one another.
 
 7. Using ```echo``` and a redirection of the standard output, add your date of birth the the copy *(redirection of ```STDOUT``` to a file)*
 
-8. Use the ```diff```-command to compare the two files ```me.txt``` and ```me_copy.txt```. If you did not yet use the ```diff```-command, then look it up at the internet. Understanding its output is very useful in many circumstances!
+8. Use the ```diff```-command to compare the two files ```me.txt``` and ```me_copy.txt```. If you did not yet use the ```diff```-command, then look it up on the internet. Understanding its output is very useful in many circumstances!
 
 9. Use the ```ls```-command (with appropriate options) to show ```me.txt``` and ```me_copy.txt``` together with their file sizes. Can you tell why the file-size difference is what it is? *(command-line options)*
 
