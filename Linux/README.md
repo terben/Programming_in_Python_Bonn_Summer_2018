@@ -12,7 +12,7 @@ If you would like to fresh up your knowledge on the *Unix/Linux* command-line, y
 
 ## Test questions
 
-Please answer the following questions consecutively. The build on one another.
+Please answer the following questions consecutively. They build on one another.
 
 1. Open a *Linux*-terminal. In which directory are you when you open a new terminal? With which *Unix*-command do you find out the directory you are currently in? *(Unix-shell and terminal)*
 
