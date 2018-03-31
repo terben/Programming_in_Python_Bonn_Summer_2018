@@ -12,6 +12,8 @@ If you would like to fresh up your knowledge on the *Unix/Linux* command-line, y
 
 ## Test questions
 
+Please answer the following questions consecutively. The build on one another.
+
 1. Open a *Linux*-terminal. In which directory are you when you open a new terminal? With which *Unix*-command do you find out the directory you are currently in? *(Unix-shell and terminal)*
 
 2. How do you find out which *shell* you are working with?
@@ -30,10 +32,12 @@ If you would like to fresh up your knowledge on the *Unix/Linux* command-line, y
 
 8. Use the ```diff```-command to compare the two files ```me.txt``` and ```me_copy.txt```. If you did not yet use the ```diff```-command, then look it up at the internet. Understanding its output is very useful in many circumstances!
 
-9. Delete the subdirectory ```test1``` and the copy of ```me.txt``` in it. Can you do this with a single command? *(Unix file-system commands)*
+9. Use the ```ls```-command (with appropriate options) to show ```me.txt``` and ```me_copy.txt``` together with their file sizes. Can you tell why the file-size difference is what it is? *(command-line options)*
 
-10. Put two copies of ```me.txt``` (choose your own file names) into a new subdirectory ```test2```. Use the ```tar```-command to backup that directory to ```test2.tar.gz``` *(```tar```-command and archive-files)*
+10. Delete the subdirectory ```test1``` and the copy of ```me.txt``` in it. Can you do this with a single command? *(Unix file-system commands)*
 
-11. Use ```tar``` to restore the contents of ```test2.tar.gz``` into a sub-directory ```test3``` *(```tar```-command)*
+11. Put two copies of ```me.txt``` (choose your own file names) into a new subdirectory ```test2```. Use the ```tar```-command to backup that directory to ```test2.tar.gz``` *(```tar```-command and archive-files)*
 
-12. Type ```sleep 2000 &```. Use the ```ps```-command to identify the ```sleep```-process. Use the ```kill```-command to get rid of it *(process control under Unix)*
+12. Use ```tar``` to restore the contents of ```test2.tar.gz``` into a sub-directory ```test3``` *(```tar```-command)*
+
+13. Type ```sleep 2000 &```. Use the ```ps```-command to identify the ```sleep```-process. Use the ```kill```-command to get rid of it *(process control under Unix)*
