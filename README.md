@@ -17,5 +17,8 @@ prior programming experience.
  - You need a Bonn University account to participate in the course! This consists of a login name (it starts with the letters *s6*) and an accompanying password. Please make sure that you have the accounf **and** the password ready for the first lecture on the 11th of April! (**Important Note:** The Bonn university account is *different* from your AIfA computer login account (if you have one!). The AIfA account is **NOT** sufficient for the course!)
 - I assume basic familiarity with the *Linux* operating system, especially using the *Unix* command-line. A more detailed description on the required knowledge is [here](https://github.com/terben/Programming_in_Python_Bonn_Summer_2018/tree/master/Linux).
 
+## Download course materials
+Instructions how to download course materials from this `github`-repository can be found [here](https://github.com/terben/Programming_in_Python_Bonn_Summer_2018/tree/master/retrieve_materials)
+
 ## Computer / Laptop setup
 Each student will work actively with an own computer in the AIfA CIP-Pool. All necessary software is already installed on the computers. For those, who would like to setup own computers/laptops with the proper software, I provide necessary information [here](https://github.com/terben/Programming_in_Python_Bonn_Summer_2018/tree/master/computer_setup).
