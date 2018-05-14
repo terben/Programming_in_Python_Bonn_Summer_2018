@@ -1,0 +1,38 @@
+1. The code works as follows: We split the list in a sorted and
+   unsorted part. The sorted part is built up from the lowest to the
+   highest index and has length zero at the start. Whern the sorted
+   part contains the whole list we are done.
+
+   (A) We go through the complete unsorted part of the list (at the
+       beginning this is the complete list) and search for the smallest
+       element in it. We swap this smallest element with the first
+       element of the unsorted part of the list (at the beginning this
+       is the first element and after this step, the sorted part of
+       the list consists of the first element).
+   (B) We repeat (A) with the next element of the unsorted part of the
+       list until we reach the end.
+
+2. The outer loop (going consecutively through the unsorted parts of
+   the list) runs through the whole list. The inner loop considers
+   one element less than the outer loop.
+
+   Hence, the toal count of comparisons is:
+   (N-1) + (N-2) + .... + 1 = N(N-1) / 2
+
+   Note: As teh code was written, we performed N operations too much
+   and the count was if we are precise N(N+1) / 2.
+
+3. The complexity of the algortihm is O(N**2)
+
+4. The outer loop runs through N elements and the inner loop each time
+   through one element less than the outer loop. Hence, the number of
+   counts is of the order N**2 (up to constant terms and
+   multiplicative constants).
+
+5. The plot is a smooth parabola and confirms the O(N**2) complexity.
+   Note: The number of operations for this algorithm is *always* the
+         same - regardless on how the input list looks like!
+         It is not bettwe or worse in certain circumstances. For
+         instance, it does not detect of the list is already sorted
+         and no operations would need to be done at all! Other sorting
+         algorithms might have this property.
