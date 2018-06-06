@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# script for supplementary plots of homework 1 from week 6
+
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
@@ -10,6 +12,10 @@ font = {'family' : 'normal',
 
 matplotlib.rc('font', **font)
 
+# x1 is used for the smooth function plot
+# and x2 for the bars  visualising Riemann sums.
+# For the latter we use less points for clarity
+# of the plot.
 x1 = np.linspace(0.0, np.pi, 30)
 x2 = np.linspace(0.0, np.pi, 13)
 
@@ -36,5 +42,3 @@ plt.ylabel("y", fontsize=18)
 plt.legend(loc='upper left')
 plt.xlim((-1.2, 2.2))
 plt.savefig('cubic.png', bbox_inches='tight')
-
-
