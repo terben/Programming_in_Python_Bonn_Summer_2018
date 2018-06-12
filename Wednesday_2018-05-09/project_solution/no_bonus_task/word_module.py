@@ -6,7 +6,7 @@
 
 # YOUR NAME HER PLEASE:
 
-import math
+import numpy
 import random
 import string
 
@@ -152,14 +152,18 @@ def deal_hand(n, vowels=VOWELS, consonants=CONSONANTS):
     """
 
     hand={}
-    num_vowels = int(math.ceil(n / 3)) - 1
+    num_vowels = int(numpy.ceil(n / 3))
+    num_consonants = n - num_vowels
 
+    # deal a wildcard for one of the vowels
     hand['*'] = 1
+    num_vowels = num_vowels - 1
+
     for i in range(num_vowels):
         x = random.choice(vowels)
         hand[x] = hand.get(x, 0) + 1
 
-    for i in range(num_vowels, n):
+    for i in range(num_consonants):
         x = random.choice(consonants)
         hand[x] = hand.get(x, 0) + 1
 
