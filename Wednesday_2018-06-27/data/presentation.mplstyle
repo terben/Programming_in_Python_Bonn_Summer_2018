@@ -1,0 +1,13 @@
+# style definition for presentation/paper quality plots
+axes.titlesize : 22
+axes.labelsize : 18
+lines.linewidth : 3
+lines.markersize : 10
+xtick.labelsize : 14
+ytick.labelsize : 14
+#
+savefig.dpi         : 300      # figure dots per inch
+savefig.format      : pdf      # png, ps, pdf, svg
+savefig.bbox        : tight # 'tight' or 'standard'.
+savefig.pad_inches  : 0.1      # Padding to be used when bbox is set to 'tight'
+savefig.jpeg_quality: 95       # when a jpeg is saved, the default quality param
